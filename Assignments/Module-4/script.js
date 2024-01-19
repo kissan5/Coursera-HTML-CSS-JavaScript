@@ -19,17 +19,17 @@ The code does NOT currently work! It is YOUR job to make it work
 as described in the requirements and the steps in order to complete this
 assignment. */
 
-(function () {
-    var names = ["Kishan", "Biren", "Sonu", "Sandy", "Shradda", "Sam", "Heck", "Pillu", "Sanjay", "Jiya"];
-  
-    for (var i = 0; i < names.length; i++) {
-      var firstLetter = names[i].charAt(0).toLowerCase();
-  
-      if (firstLetter === 's') {
-        byeSpeaker(names[i]);
-      } else {
-        helloSpeaker(names[i]);
-      }
+// Create an array of names
+var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
+
+// Loop through the names and print the corresponding greetings
+for (var i = 0; i < names.length; i++) {
+    // Check if the name starts with 'J' for a conditional greeting
+    if (names[i].charAt(0).toLowerCase() === 'j') {
+        console.log("Good Bye " + names[i]);
+    } else {
+        console.log("Hello " + names[i]);
     }
-  })();
+}
+
   
